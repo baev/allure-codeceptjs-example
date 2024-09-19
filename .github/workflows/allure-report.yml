@@ -7,6 +7,8 @@ on:
     branches-ignore:
       - '!main'
 
+permissions: write-all
+
 jobs:
   autotests:
     name: Run tests and generate Allure Report
