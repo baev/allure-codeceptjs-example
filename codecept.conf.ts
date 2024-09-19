@@ -1,7 +1,7 @@
 export const config: CodeceptJS.MainConfig = {
   name: "codeceptjs",
   tests: "./specs/*.spec.ts",
-  output: "./out",
+  output: "./output",
   plugins: {
     allure: {
       resultsDir: "./out/allure-results",

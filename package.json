@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "codeceptjs run --plugins allure"
+    "test": "codeceptjs run --plugins allure"
   },
   "keywords": [],
   "author": "",
