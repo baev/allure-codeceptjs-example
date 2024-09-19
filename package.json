@@ -1,0 +1,20 @@
+{
+  "name": "allure-codeceptjs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "codeceptjs run --plugins allure"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "22.0.0",
+    "typescript": "5.5.4",
+    "ts-node": "10.9.2",
+    "codeceptjs": "3.6.4",
+    "allure-codeceptjs": "^3.0.0",
+    "allure-js-commons": "^3.0.0"
+  }
+}
